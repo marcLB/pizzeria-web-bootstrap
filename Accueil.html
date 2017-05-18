@@ -1,0 +1,258 @@
+<html>
+    <head>
+        <meta charset="utf-8" >
+        <title>Accueil - La Florentina - Pizzéria à Saint-Herblain</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="/js/accueil.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/feuilleDeStylePizzeria.css">
+        <link rel="stylesheet" href="css/accueil.css">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    </head>
+        
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+
+                <div id="monCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#monCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#monCarousel" data-slide-to="1"></li>
+                        <li data-target="#monCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+
+                        <div class="item active">
+                            <img src="Images/Carousel/Carousel1.jpg" alt="Pizzeria">
+                            <div class="carousel-caption">
+                                <h1>La Florentina</h1>
+                                <p>L'italie est dans votre pizza !</p>
+                            </div>
+                        </div> 
+                           <div class="item">
+                            <img src="Images/Carousel/Carousel2.jpg" alt="Pizzeria">
+                            <div class="carousel-caption">
+                                <h1>La Florentina</h1>
+                                <p>L'italie est dans votre pizza !</p>
+                            </div>
+                        </div> 
+                           <div class="item">
+                            <img src="Images/Carousel/Carousel3.jpg" alt="Pizzeria">
+                            <div class="carousel-caption">
+                                <h1>La Florentina</h1>
+                                <p>L'italie est dans votre pizza !</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Flèches de contrôle -->
+                    <a class="left carousel-control" href="#monCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Précédent</span>
+                    </a>
+                    <a class="right carousel-control" href="#monCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Suivant</span>
+                    </a>
+                </div>
+
+                <!-- Début de la barre de navigation -->
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <!-- Barre de navigation pour smartphones -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#maNavBar">
+                                <span class="icon-bar"></span>
+                                <!-- à compléter -->
+                            </button>
+                        </div>
+
+                        <!-- Barre de navigation pour ordinateurs -->
+                        <div class="collapse navbar-collapse" id="maNavBar">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="Accueil.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Accueil</a></li>
+                                <li><a href="#"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> La Florentina</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Notre carte<span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li> 
+                                            <a href="#">
+                                                <i class="fa fa-upload" aria-hidden="true"></i>
+                                                Télécharger la carte
+                                            </a>
+                                        </li> 
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-list" aria-hidden="true"></i>
+                                                Voir la carte
+                                            </a>
+                                        </li>
+                                        <li role="separator" class="divider"></li>
+                                        <li class="dropdown-header"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Nos pizzas</li>
+                                        <li><a href="#">Marguerita <span class="label label-success">Produit de la semaine</span></a></li>
+                                        <li><a href="#">Reine</a></li>
+                                        <li><a href="#">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                            Voir la carte des pizza
+                                        </a></li>
+                                        
+                                        <li class="dropdown-header"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> Nos salades</li>
+                                        <li><a href="#">Salade César</a></li>
+                                        <li><a href="#">Salade Landaise</a></li>
+                                        <li><a href="#">
+                                             <i class="fa fa-eye" aria-hidden="true"></i>
+                                            Voir la carte des salades
+                                        </a></li>
+                                        
+                                        <li class="dropdown-header"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> Nos pâtes</li>
+                                        <li><a href="#">Linguines à la bolognese</a></li>
+                                        <li><a href="#">Linguines à la carbonara</a></li>
+                                        <li><a href="#">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                            Voir la carte des pâtes
+                                        </a></li>
+                                        
+                                         <li class="dropdown-header"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Nos viandes</li>
+                                        <li><a href="#">Tartare de boeuf coupé au couteau</a></li>
+                                          <li><a href="#">Carpaccio de boeuf <span class="label label-danger">en rupture</span></a></li>
+                                        <li><a href="#">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                            Voir la carte des viandes
+                                        </a></li>
+                                        
+                                    </ul>
+                                </li>
+                                <li><a href="javascript:chargeHTML('ContactezNous')"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Contactez-nous</a></li>
+                            </ul>				 
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+            </div>
+            <!-- Fin de la barre de navigation -->
+            <div id="contenu">
+                <div class="jumbotron">
+                    <h1>Bienvenue sur le site de La Florentina !</h1>
+                    <p>Notre amour pour les pizzas se ressent jusque dans vos assiettes.</p>
+                    <p>En amoureux ou en famille, notre équipe vous accueil 6 jours/7, du lundi au samedi.</p>
+                    <p><a class="btn btn-lg btn-danger" href="#" role="button">Trop cool ! Je veux réserver !</a></p>
+                </div>
+                <div class="alert alert-success">
+                    <b>Félicitation!</b> Vous avez été choisi pour participer à notre grand jeu "Gagnez un Perrier citron" !
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                </div>
+                <!-- Thumbnails -->
+                <div class="page-header">
+                    <h1>Les pizzas du moment</h1>
+                </div>
+                <div id="pizzasDuMoment">
+                    <!-- à compléter pour gérer le responsive web design -->
+
+                    <div class="row">
+                       <div class="col-md-4 col-xs-6">
+                           
+                            <div class="thumbnail">
+                                
+                                    <img src="/Images/Pizzas/Pizza_4fromages.jpg" alt="">
+                               
+                            </div>
+                        </div>
+                          <div class="col-md-4 col-xs-6">
+                           
+                        <div class="thumbnail">
+                         
+                                <img src="/Images/Pizzas/Pizza_4fromages.jpg" alt="">
+                          
+                        </div>
+                       </div>
+                    </div>
+                </div>
+                <div class="/* à compléter */">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="javascript:chargeHTML('Pagination1')">1</a></li>
+                            <li class="page-item"><a class="page-link" href="javascript:chargeHTML('Pagination2')">2</a></li>
+                            <li class="page-item"><a class="page-link" href="javascript:chargeHTML('Pagination3')">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- Pagination (class="pagination") -->
+                </div>
+
+                <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 /* à compléter */">
+                    <!-- Citation -->
+                </div>
+
+                <br/><br/>
+
+                <!-- Atouts  -->
+                <div id="atouts">                    
+                    <!-- à compléter -->
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="clearfix"></div>
+
+        <!-- Footer -->
+
+        <footer class="/* à compléter */">
+
+            <div class="/* à compléter */">
+
+                <img src="Images/LogoLaFlorentina.png" />
+
+                <p class="/* à compléter */">
+                    <a href="Accueil.html">Accueil</a>
+                    ·
+                    <a href="LaFlorentina.html">La Florentina</a>
+                    ·
+                    <a href="javascript:chargeHTML('LaCarteDesProduits')">Notre carte</a>
+                    ·
+                    <a href="javascript:chargeHTML('ContactezNous.html')">Contactez-nous</a>
+                </p>
+            </div>
+
+            <div class="/* à compléter */">
+
+                <div>
+                    <p><span>Rue Edith Piaf, Immeuble Euptoyou</span> 44800 Saint-Herblain</p>
+                </div>
+
+                <div>
+                    <p>02 40 99 99 99</p>
+                </div>
+
+                <div>
+                    <p><a href="contact@la-florentina.com">contact@la-florentina.com</a></p>
+                </div>
+
+            </div>
+
+            <div class="/* à compléter */">
+                <p class="/* à compléter */">
+                    <span>À propos</span>
+                    Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
